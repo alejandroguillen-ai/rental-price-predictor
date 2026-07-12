@@ -1,0 +1,21 @@
+# Data
+pandas
+requests
+
+# Modeling
+scikit-learn
+xgboost
+
+# Experiment tracking (used starting Phase 4)
+mlflow
+
+# API (used starting Phase 6)
+fastapi
+uvicorn
+pydantic
+
+# Testing (used starting Phase 7)
+pytest
+
+# Utilities
+python-dotenv
