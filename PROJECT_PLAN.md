@@ -10,8 +10,7 @@
 ## 1. Context and motivation
 
 Portfolio project aimed at demonstrating end-to-end Data/ML skills: from data ingestion to
-deploying a model in production. Part of a series of 3 projects (ML pipeline, NLP/LLM,
-MLOps).
+deploying a model in production.
 
 ## 2. Problem definition
 
