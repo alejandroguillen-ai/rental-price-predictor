@@ -1,0 +1,25 @@
+# Data (raw and processed data are never committed)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python environment
+venv/
+__pycache__/
+*.pyc
+.env
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Serialized models
+*.pkl
+*.joblib
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# System
+.DS_Store
