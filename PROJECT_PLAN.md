@@ -54,14 +54,14 @@ deploying a model in production.
 
 | Area | Tool/Concept | Required level |
 |---|---|---|
-| Data | Python, pandas, requests | Should already have a base |
+| Data | Python, pandas, requests | Already have a base |
 | Version control | Git/GitHub (commits, .gitignore, branches) | Review best practices |
 | Environment | venv or poetry, `requirements.txt` | Basic |
 | Modeling | scikit-learn, XGBoost | Reinforce as we go |
 | Experiment tracking | MLflow | New — learned in Phase 4 |
-| API | FastAPI, Pydantic | New if unfamiliar |
+| API | FastAPI, Pydantic | New |
 | Testing | pytest | Review |
-| Containers | Docker (basic Dockerfile) | New if unfamiliar |
+| Containers | Docker (basic Dockerfile) | New |
 | Deployment | Render or Railway (free tier) | New — covered in Phase 8 |
 
 ## 6. Decision Log
@@ -160,8 +160,7 @@ deploying a model in production.
 - [x] Define success metric and baseline (MAE primary, log-transform, per-neighbourhood
       baseline)
 - [x] Design the repository folder structure
-- [x] Write the generic Inside Airbnb download function (Phase 2)
-- [x] Translate all project documentation and code comments to English
+- [ ] Write the generic Inside Airbnb download function (Phase 2)
 - [ ] **Run `ingest.py` with network access and confirm whether Las Palmas de Gran Canaria
       is available; if not, pick an alternative development city**
 - [ ] Set up virtual environment and install `requirements.txt`
